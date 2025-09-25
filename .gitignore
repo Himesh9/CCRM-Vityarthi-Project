@@ -1,0 +1,11 @@
+# Ignore Maven build output
+target/
+
+# Ignore IDE project files
+.idea/
+.vscode/
+*.iml
+
+# Ignore OS junk
+.DS_Store
+Thumbs.db
