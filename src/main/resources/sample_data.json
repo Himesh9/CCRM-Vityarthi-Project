@@ -1,0 +1,15 @@
+{
+  "students": [
+    {"id":"stu-1","regNo":"CS2023-01","fullName":"Alice Wonderland","email":"alice@example.com"},
+    {"id":"stu-2","regNo":"CS2023-02","fullName":"Bob Builder","email":"bob@example.com"}
+  ],
+  "courses": [
+    {"code":"CS101","title":"Intro to CS","credits":4,"semester":"FALL"},
+    {"code":"MA101","title":"Calculus I","credits":3,"semester":"FALL"}
+  ],
+  "enrollments": [
+    {"studentId":"stu-1","courseCode":"CS101","semester":"FALL","grade":"A"},
+    {"studentId":"stu-1","courseCode":"MA101","semester":"FALL","grade":"B"},
+    {"studentId":"stu-2","courseCode":"CS101","semester":"FALL","grade":"C"}
+  ]
+}
